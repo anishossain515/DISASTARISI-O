@@ -1,0 +1,170 @@
+{
+    "disasters" : [
+        {
+            "image" : "/disasters1.png",
+            "place" : "Whitechapel Rd.",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"
+        },
+        {
+            "image" : "/disasters2.png",
+            "place" : "Whitechapel Rd.",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"
+        },
+        {
+            "image" : "/disasters3.png",
+            "place" : "Tulare County",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"
+        },
+        {
+            "image" : "/disasters4.png",
+            "place" : "Tulare County",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"
+        },
+        {
+            "image" : "/disasters5.png",
+            "place" : "Tulare County",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"
+        },
+        {
+            "image" : "/disasters6.png",
+            "place" : "Tulare County.",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"
+        }
+    ],
+
+    "Incidents" : [
+        {
+            "image": "/Frame1.png",
+            "type" : "What type of incident?",
+            "details" : "Choose the category that best describes the incident."
+        },
+        {
+            "image": "/Frame2.png",
+            "type" : "Tell us about the incident?",
+            "details" : "Let’s connect the dots and see where to start."
+        },
+        {
+            "image": "/Frame3.png",
+            "type" : "Where did the incident occur?",
+            "details" : "Lorem ipsum dolar sit general sac mascho werho."
+        }
+    ],
+
+    "ChooseIncidents" : [
+        {
+            "image" : "/incidents1.png",
+            "name": "Avalanche"
+        },
+        {
+            "image" : "/incidents2.png",
+            "name": "Biological"
+        },
+        {
+            "image" : "/incidents3.png",
+            "name": "Blizzard"
+        },
+        {
+            "image" : "/incidents4.png",
+            "name": "Cold/Freezing"
+        },
+        {
+            "image" : "/incidents5.png",
+            "name": "Drought"
+        },
+        {
+            "image" : "/incidents6.png",
+            "name": "Earthquake"
+        },
+        {
+            "image" : "/incidents7.png",
+            "name": "Flooding"
+        },
+        {
+            "image" : "/incidents8.png",
+            "name": "Heat Wave"
+        },
+        {
+            "image" : "/incidents9.png",
+            "name": "Hail"
+        },
+        {
+            "image" : "/incidents10.png",
+            "name": "Lightning"
+        },
+        {
+            "image" : "/incidents11.png",
+            "name": "Man Made"
+        },
+        {
+            "image" : "/incidents12.png",
+            "name": "Mudslide"
+        },
+        {
+            "image" : "/incidents13.png",
+            "name": "Severe Storm"
+        },
+        {
+            "image" : "/incidents14.png",
+            "name": "Strong Wind"
+        },
+        {
+            "image" : "/incidents15.png",
+            "name": "Tornado"
+        },
+        {
+            "image" : "/incidents16.png",
+            "name": "Tsunami"
+        },
+        {
+            "image" : "/incidents17.png",
+            "name": "Volcanic Eruption"
+        },
+        {
+            "image" : "/incidents18.png",
+            "name": "Wildfire"
+        }
+
+    ],
+
+    "location" : [
+        {
+            "image": "/location1.png",
+            "place" : "Tulare County.",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"   
+        },
+        {
+            "image": "/location2.png",
+            "place" : "Tulare County.",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"   
+        },
+        {
+            "image": "/location1.png",
+            "place" : "Tulare County.",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"   
+        },
+        {
+            "image": "/location1.png",
+            "place" : "Tulare County.",
+            "area" : "Tulare County,  Los Angles, CA 23415",
+            "loss" : "$1,456,654.00"   
+        }
+    ],
+
+    "Activities" : [
+        {
+            "image": "/location1.png",
+            "name" : "Activity name",
+            "locationName" : "Location name 16.12212, -122.1424",
+            "loss" : "$1,456,654.00"   
+        }
+    ]
+}
