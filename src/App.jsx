@@ -9,6 +9,9 @@ import { IncidentsInfo } from './components/CommonCotains/IncidentsInfo'
 import { IncidentsDes } from './components/CommonCotains/IncidentsDes'
 import { ADN } from './components/CommonCotains/ADN'
 import { Dashboard } from './components/Contains/Dashboard'
+import { CheatBox } from './components/Contains/CheatBox'
+import { Cheat } from './components/common/Cheat'
+import { PopupToggle } from './Pop'
 
 function App() {
   return (
@@ -24,6 +27,8 @@ function App() {
        </Routes>
     </BrowserRouter>
 
+ 
+  
   
   
 

@@ -4,9 +4,11 @@ import { NavLink, Outlet } from "react-router-dom";
 import { NavDetails } from "./NavDetails";
 import { Bar } from "../../lib/Icon";
 import { MobileMenu } from "./MobileMenu";
+import { cn } from "../../lib/Cn";
 
 export const Navbar = () => {
   const [IsMobileMenu,setIsMobileMenu] = useState(false)
+  const [IsActive,setIsActive] = useState(0)
 
   const ToggleMenu = ()=>{
     setIsMobileMenu(!IsMobileMenu)
@@ -19,7 +21,7 @@ export const Navbar = () => {
       <nav className="xl:px-[85px] px-[20px] lg:px-[40px] flex justify-between items-center  ">
         <img src="/logo.png" alt="logo" />
 
-        <ul className="lg:flex hidden items-center lg:gap-[23px] xl:gap-[35px] text-Gray">
+        <ul className="lg:flex hidden items-center leading-[17px] lg:gap-[23px] xl:gap-[35px] text-Gray">
           {NavItems.navItems.map(({ label, link }, index) => (
             <li key={index}>
               <NavLink to={link}>{label}</NavLink>
@@ -48,9 +50,17 @@ export const Navbar = () => {
         {IsMobileMenu && <MobileMenu ToggleMenu={ToggleMenu}/>}
 
         </nav>
-        
-      <div className="border border-Gray mt-[15px]"></div>
-        
+    
+      <div className="mt-[15px] bg-Gray">
+        <div className="flex items-center justify-center pr-[145px] gap-[50px]">
+
+        { Array.from(Array(5).keys()).map((el) => (
+          <div key={el} className={cn("w-[80px] h-[3px]  rounded-[30px]", IsActive === el && 'bg-[#09090B]')}></div>
+       ))}
+
+        </div>
+      </div>
+
       <NavDetails />
 
       </div>
