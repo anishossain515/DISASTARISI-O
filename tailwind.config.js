@@ -12,7 +12,8 @@ export default {
       colors : {
         'Gray' : '#71717A',
         'Saffron' : '#F26922',
-        'Light Gray' : '#E4E4E7'
+        'Light-Gray' : '#E4E4E7',
+        'Rich-Black' : '#09090B'
       }
     },
   },

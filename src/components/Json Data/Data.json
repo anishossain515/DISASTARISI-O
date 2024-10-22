@@ -1,37 +1,65 @@
 {
+    "navItems" : [
+        {
+            "label" : "Dashboard",
+            "link" : "/"
+        },
+        {
+            "label" : "Incidents",
+            "link" : "/incidents"
+        },
+        {
+            "label" : "Locations",
+            "link" : "/location"
+        },
+        {
+            "label" : "Activities",
+            "link" : "/NotExits"
+        },
+        {
+            "label" : "Documents",
+            "link" : "/NotExits"
+        },
+        {
+            "label" : "Cypher AI",
+            "link" : "/NotExits"
+        }
+    ],
+
+
     "disasters" : [
         {
-            "image" : "/disasters1.png",
+            "image" : "/disaster1.png",
             "place" : "Whitechapel Rd.",
             "area" : "Tulare County,  Los Angles, CA 23415",
             "loss" : "$1,456,654.00"
         },
         {
-            "image" : "/disasters2.png",
+            "image" : "/disaster2.png",
             "place" : "Whitechapel Rd.",
             "area" : "Tulare County,  Los Angles, CA 23415",
             "loss" : "$1,456,654.00"
         },
         {
-            "image" : "/disasters3.png",
+            "image" : "/disaster3.png",
             "place" : "Tulare County",
             "area" : "Tulare County,  Los Angles, CA 23415",
             "loss" : "$1,456,654.00"
         },
         {
-            "image" : "/disasters4.png",
+            "image" : "/disaster4.png",
             "place" : "Tulare County",
             "area" : "Tulare County,  Los Angles, CA 23415",
             "loss" : "$1,456,654.00"
         },
         {
-            "image" : "/disasters5.png",
+            "image" : "/disaster5.png",
             "place" : "Tulare County",
             "area" : "Tulare County,  Los Angles, CA 23415",
             "loss" : "$1,456,654.00"
         },
         {
-            "image" : "/disasters6.png",
+            "image" : "/disaster6.png",
             "place" : "Tulare County.",
             "area" : "Tulare County,  Los Angles, CA 23415",
             "loss" : "$1,456,654.00"

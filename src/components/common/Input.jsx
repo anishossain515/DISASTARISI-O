@@ -9,7 +9,7 @@ export const Input = () => {
       <input
         type="text"
         placeholder="Search incident"
-        className="py-2 px-[10px] pl-[35px] pr-[10px] border border-Light-gray w-[190px] rounded-[6px] focus:outline-none focus:ring-gray-400" 
+        className="py-2 px-[10px] pl-[35px] pr-[10px] border border-Light-gray w-[250px] sm:w-[190px] rounded-[6px] focus:outline-none focus:ring-gray-400" 
       />
     </div>
   );
