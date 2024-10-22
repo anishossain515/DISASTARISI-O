@@ -14,7 +14,11 @@ export default {
         'Saffron' : '#F26922',
         'Light-Gray' : '#E4E4E7',
         'Rich-Black' : '#09090B'
+      },
+      boxShadow : {
+        "cheat" : "0px 4px 48px 0px #0000000F"
       }
+
     },
   },
   plugins: [],

@@ -8,24 +8,24 @@ import { MobileMenu } from './components/CommonCotains/Navber/MobileMenu'
 import { IncidentsInfo } from './components/CommonCotains/IncidentsInfo'
 import { IncidentsDes } from './components/CommonCotains/IncidentsDes'
 import { ADN } from './components/CommonCotains/ADN'
+import { Dashboard } from './components/Contains/Dashboard'
 
 function App() {
   return (
-    // <BrowserRouter>
-    //    <Routes>
+    <BrowserRouter>
+       <Routes>
 
-    //       <Route path='' element={<Navbar/>}>
-
+          <Route path='' element={<Navbar/>}>
+          <Route path='/' element={<Dashboard/>} />
         
 
-    //       </Route>
+          </Route>
 
-    //    </Routes>
-    // </BrowserRouter>
+       </Routes>
+    </BrowserRouter>
 
-    <>
-   
-    </>
+  
+  
 
     
   )

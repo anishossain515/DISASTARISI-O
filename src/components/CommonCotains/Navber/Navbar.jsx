@@ -22,7 +22,7 @@ export const Navbar = () => {
         <ul className="lg:flex hidden items-center lg:gap-[23px] xl:gap-[35px] text-Gray">
           {NavItems.navItems.map(({ label, link }, index) => (
             <li key={index}>
-              <a to={link}>{label}</a>
+              <NavLink to={link}>{label}</NavLink>
             </li>
           ))}
         </ul>
