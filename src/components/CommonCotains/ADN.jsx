@@ -1,15 +1,15 @@
 import React from 'react'
 
-export const ADN = () => {
+export const ADN = ({image,name,locationName,loss}) => {
   return (
-    <div className='lg:w-[679px] m-2 rounded-[10px] w-[80%] bg-[#F4F4F5] px-[10px] py-[15px] flex items-center justify-normal gap-[17px] '>
+    <div className='lg:w-[679px]  rounded-[10px] h-[108px] w-[98%] bg-[#F4F4F5] px-[10px]  flex items-center justify-normal gap-[17px] '>
 
-        <img src="/ADN.png" alt="ADN" />
+        <img src={image} alt={name} />
 
         <div className='font-onest '>
-            <h2 className='font-bold text-Rich-Black text-[16px] '>Activity name</h2>
-            <p className='text-[14px] text-Gray pt-[10px] '>Location name 16.12212, -122.1424</p>
-            <p className='font-bold text-Rich-Black pt-[10px] '>$1,456,654.00</p>
+            <h2 className='font-bold text-Rich-Black text-sm sm:text-base '>{name}</h2>
+            <p className='sm:text-[14px] text-[11px] text-Gray pt-3 '>{locationName}</p>
+            <p className='font-bold text-Rich-Black pt-3 '>{loss}</p>
         </div>
     </div>
   )

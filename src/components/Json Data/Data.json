@@ -23,6 +23,7 @@
             "label" : "Locations",
             "link" : "/location",
             "navInfo" : {
+                "navImg" : "/incidents14.png",
                 "navDes" : "Incidents - DR-4699 March 2023 Severe Storms ",
                 "navName" : "DR-4699 March 2023 Severe Storms",
                 "btnImage" : "./plus.png",
@@ -218,10 +219,19 @@
 
     "Activities" : [
         {
-            "image": "/location1.png",
+            "image": "/ADN.png",
             "name" : "Activity name",
             "locationName" : "Location name 16.12212, -122.1424",
             "loss" : "$1,456,654.00"   
-        }
+        }    
+    ],
+
+    "Documents" : [
+        {
+            "image": "/ADN.png",
+            "name" : "Document name",
+            "locationName" : "Location name 16.12212, -122.1424",
+            "loss" : "$1,456,654.00"   
+        }    
     ]
 }

@@ -13,7 +13,8 @@ export default {
         'Gray' : '#71717A',
         'Saffron' : '#F26922',
         'Light-Gray' : '#E4E4E7',
-        'Rich-Black' : '#09090B'
+        'Rich-Black' : '#09090B',
+        'Slate-Gray' : '#6B7280'
       },
       boxShadow : {
         "cheat" : "0px 4px 48px 0px #0000000F"

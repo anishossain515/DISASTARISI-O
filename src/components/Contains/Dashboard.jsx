@@ -17,7 +17,7 @@ export const Dashboard = () => {
 
   return (
     <section className="mt-10">
-      <Contains className="flex relative px-[50px] md:px-[70px] max-w-[1517px] flex-wrap gap-[25px] justify-center xl:justify-start">
+    <Contains className="flex relative px-[50px] md:px-[70px] max-w-[1517px] flex-wrap    gap-[25px] justify-center xl:justify-start">
         {DisastersInfo.disasters.map(({ image, place, area, loss }, index) => (
           <Disasters
             key={index}
@@ -25,6 +25,8 @@ export const Dashboard = () => {
             place={place}
             area={area}
             loss={loss}
+            width='306px'
+            height='253px'
           />
         ))}
       </Contains>
