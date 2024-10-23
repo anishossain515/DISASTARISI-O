@@ -4,7 +4,7 @@ import { Navbar } from './components/CommonCotains/Navber/Navbar'
 import { Dashboard } from './components/Contains/Dashboard'
 import { Incidents } from './components/Contains/Incidents/Incidents'
 import { Location } from './components/Contains/Location/Location'
-import { IncidentPage1 } from './components/Contains/Incidents/IncidentPage1'
+import { IncidentPage2 } from './components/Contains/Incidents/IncidentPage2'
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
     // </BrowserRouter>
 
     <>
-      <IncidentPage1/>
+      <IncidentPage2/>
     </>
    
    

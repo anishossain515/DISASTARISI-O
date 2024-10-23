@@ -4,7 +4,7 @@ import { Search } from "../lib/Icon";
 export const Input = () => {
   return (
     <div className="relative flex items-center">
-      <Search className="absolute left-3 text-gray-400 size-[18px] " />{" "}
+      <Search className="absolute left-3 text-gray-400 size-[18px] " />
 
       <input
         type="text"
