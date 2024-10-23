@@ -2,27 +2,56 @@
     "navItems" : [
         {
             "label" : "Dashboard",
-            "link" : "/"
+            "link" : "/",
+            "navInfo" : {
+                "navDes" : "Welcome back",
+                "navName" : "Dashboard",
+                "btnName" : "Cypher AI"
+            }
         },
         {
             "label" : "Incidents",
-            "link" : "/incidents"
+            "link" : "/incidents",
+            "navInfo" : {
+                "navDes" : "Home - Incidents",
+                "navName" : "Incidents",
+                "btnImage" : "./plus.png",
+                "btnName" : "New Incident"
+            }
         },
         {
             "label" : "Locations",
-            "link" : "/location"
+            "link" : "/location",
+            "navInfo" : {
+                "navDes" : "Incidents - DR-4699 March 2023 Severe Storms ",
+                "navName" : "DR-4699 March 2023 Severe Storms",
+                "btnImage" : "./plus.png",
+                "btnName" : "New Incident"
+            }
         },
         {
             "label" : "Activities",
-            "link" : "/NotExits"
+            "link" : "/NotExits",
+            "navInfo" : {
+                "navDes" : "Home - Incidents",
+                "navName" : "Incidents"
+            }
         },
         {
             "label" : "Documents",
-            "link" : "/NotExits"
+            "link" : "/NotExits",
+            "navInfo" : {
+                "navDes" : "Home - Incidents",
+                "navName" : "Incidents"
+            }
         },
         {
             "label" : "Cypher AI",
-            "link" : "/NotExits"
+            "link" : "/NotExits",
+            "navInfo" : {
+                "navDes" : "Home - Incidents",
+                "navName" : "Incidents"
+            }
         }
     ],
 

@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavItems from "../../Json Data/Data.json";
+import { NavLink } from 'react-router-dom';
+import { NavDetails } from "./NavDetails";
 
-export const MobileMenu = ({ToggleMenu}) => {
+export const MobileMenu = ({ToggleMenu,setIsActive,IsActive}) => {
+
   return (
     <section className='w-full h-screen absolute top-0 left-0 z-50 bg-white p-6'>
 
@@ -15,7 +18,7 @@ export const MobileMenu = ({ToggleMenu}) => {
         <ul className='pt-6 space-y-2 text-Gray '>
          {NavItems.navItems.map(({ label, link }, index) => (
             <li key={index}>
-              <a to={link}>{label}</a>
+              <NavLink to={link} onClick={()=> setIsActive(index)}>{label}</NavLink>
             </li>
          ))} 
         </ul>
@@ -31,6 +34,7 @@ export const MobileMenu = ({ToggleMenu}) => {
 
         </div>
 
+       
     </section>
   )
 }
