@@ -3,7 +3,7 @@ import { cn } from '../lib/Cn'
 
 export const Container = ({children,className}) => {
   return (
-    <div className={cn('w-full mx-auto max-w-screen-[815px] ',className)}>
+    <div className={cn('w-[815px] mx-auto ',className)}>
         {children}
     </div>
   )

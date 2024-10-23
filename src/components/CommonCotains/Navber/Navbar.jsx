@@ -11,13 +11,13 @@ export const Navbar = () => {
   const [IsActive, setIsActive] = useState(0);
 
   // Set IsActive based on the current path
-  useEffect(() => {
-    const currentPath = location.pathname;
-    const activeIndex = NavItems.navItems.findIndex(item => item.link === currentPath);
-    if (activeIndex !== -1) {
-      setIsActive(activeIndex);
-    }
-  }, [location.pathname]);
+  useEffect(()=>{
+     const currentPath = location.pathname
+     const activeIndex = NavItems.navItems.findIndex((item)=> item.link === currentPath)
+     if(activeIndex !== -1){
+       setIsActive(activeIndex)
+     }
+  },[location.pathname])
 
   const ToggleMenu = () => {
     setIsMobileMenu(!IsMobileMenu);

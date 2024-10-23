@@ -1,7 +1,7 @@
 import React from 'react'
-import { Contains } from './Contains'
-import DisastersInfo from '../Json Data/Data.json'
-import { Disasters } from '../CommonCotains/Disasters'
+import { Contains } from '../Contains'
+import DisastersInfo from '../../Json Data/Data.json'
+import { Disasters } from '../../CommonCotains/Disasters'
 
 export const Incidents = () => {
   return (
