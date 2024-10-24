@@ -22,7 +22,7 @@ export const NavDetails = ({NavInfo,NavName,FirstBtnInfo,SecondBtnInfo, BtnSrc,S
             </h1>
           </div>
       </div>
-       {Bar && <img src={Bar} alt="Bar" />}
+       {Bar && <img src={Bar} alt="Bar" className='xl:block hidden' />}
       <div className='flex sm:flex-row flex-col items-center gap-[14px]'>
         {Input && <Input />}
         <div className='sm:space-x-[14px] space-x-[5px] flex items-center'>

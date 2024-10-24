@@ -26,12 +26,12 @@ export const IncidentPage3 = () => {
       />
 
       <section className="mt-10">
-        <Container>
+        <Container className='px-3'>
           <div className="font-onest">
-            <h2 className="font-bold text-2xl text-Rich-Black ">
+            <h2 className="font-bold text-xl md:text-2xl text-Rich-Black ">
               Let’s give the incident a title?
             </h2>
-            <p className="text-sm text-Gray pt-3 pb-6">
+            <p className="sm:text-sm text-[12px] text-Gray pt-3 pb-6">
               Make a title that will easily identify the incidents
             </p>
             <input
@@ -42,10 +42,10 @@ export const IncidentPage3 = () => {
           </div>
 
           <div className="pt-[25px]">
-            <h2 className="font-bold text-2xl text-Rich-Black ">
+            <h2 className="font-bold text-xl md:text-2xl text-Rich-Black ">
               Describe what happened during the incident?
             </h2>
-            <p className="text-sm text-Gray pt-3 pb-6">
+            <p className="sm:text-sm text-[12px] text-Gray pt-3 pb-6">
               Share some information about the incident. The when, where, how.
             </p>
             <textarea
