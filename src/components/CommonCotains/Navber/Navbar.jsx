@@ -7,7 +7,7 @@ import { MobileMenu } from "./MobileMenu";
 export const Navbar = () => {
   const [IsMobileMenu, setIsMobileMenu] = useState(false);
   const location = useLocation(); 
-  const [IsActive, setIsActive] = useState(0);
+  const [IsActive, setIsActive] = useState(-1);
 
   // Set IsActive based on the current path
   useEffect(()=>{
