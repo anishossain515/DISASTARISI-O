@@ -11,6 +11,10 @@ export const IncidentPage3 = () => {
     Navigate("/IncidentPage2");
   };
 
+  const handelNavigateNext =()=>{
+    Navigate("/IncidentPage4")
+  }
+
   return (
     <>
       <NavDetails
@@ -22,6 +26,7 @@ export const IncidentPage3 = () => {
         H="text-[26px]"
         Delete="/delete.png"
         Bar="/Bar.png"
+        SecondBtnClick={handelNavigateNext}
         FirstBtnClick={handelNavigateBack}
       />
 
@@ -45,7 +50,7 @@ export const IncidentPage3 = () => {
             <h2 className="font-bold text-xl md:text-2xl text-Rich-Black ">
               Describe what happened during the incident?
             </h2>
-            <p className="sm:text-sm text-[12px] text-Gray pt-3 pb-6">
+            <p className="stext-sm text-[12px] text-Gray pt-3 pb-6">
               Share some information about the incident. The when, where, how.
             </p>
             <textarea

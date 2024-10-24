@@ -23,6 +23,7 @@ function App() {
           <Route path='/IncidentPage1' element={<IncidentPage1/>} />
           <Route path='/IncidentPage2' element={<IncidentPage2/>} />
           <Route path='/IncidentPage3' element={<IncidentPage3/>} />
+          <Route path='/IncidentPage4' element={<IncidentPage4/>} />
 
           </Route>
 

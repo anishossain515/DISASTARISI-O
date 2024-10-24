@@ -15,7 +15,7 @@ export const IncidentPage1 = () => {
 
   return (
     <section className='mt-[85px]'>
-      <Container className='items-center mx-auto flex flex-col'>
+      <Container className='items-center mx-auto flex flex-col px-4'>
         <div>
           <h1 className='font-onest font-bold text-3xl text-center text-Rich-Black'>Let’s get started</h1>
           <p className='font-onest text-Gray text-center sm:text-base text-sm sm:w-[468px] mx-auto pt-[14px]'>

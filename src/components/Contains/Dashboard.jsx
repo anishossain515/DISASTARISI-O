@@ -38,8 +38,7 @@ export const Dashboard = () => {
                 place={place}
                 area={area}
                 loss={loss}
-                width="306px"
-                height="253px"
+               
               />
             )
           )}

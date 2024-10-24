@@ -5,13 +5,13 @@ import { SecondButton } from '../../common/SecondButton';
 
 export const NavDetails = ({NavInfo,NavName,FirstBtnInfo,SecondBtnInfo, BtnSrc,SecondBtnClick,FirstBtnClick,NavSrc,P,H,Delete,Input,Bar}) => {
   return (
-    <section className='lg:px-[60px] bg-Light-Gray  px-[20px] xl:px-[86px] pt-[32px] pb-[23px] flex flex-col md:flex-row justify-between items-center'>
+    <section className='lg:px-[60px] bg-Light-Gray  px-[20px] xl:px-[86px] pt-[32px] pb-[23px] flex flex-col md:flex-row justify-between  space-y-2 items-center'>
 
       <div className='flex items-center justify-center  gap-2'>
 
             {Delete  &&  <img src={Delete} alt="delete" className='cursor-pointer' />}
            
-           <div className='flex flex-col items-start justify-center '>
+           <div className='flex  space-y-2 flex-col items-start justify-center '>
            <p className={`font-onest font-semibold  text-Gray ${P}`}>
               {NavInfo}
             </p>
@@ -23,7 +23,7 @@ export const NavDetails = ({NavInfo,NavName,FirstBtnInfo,SecondBtnInfo, BtnSrc,S
           </div>
       </div>
        {Bar && <img src={Bar} alt="Bar" className='xl:block hidden' />}
-      <div className='flex sm:flex-row flex-col items-center gap-[14px]'>
+      <div className='flex  sm:flex-row flex-col items-center gap-[14px]'>
         {Input && <Input />}
         <div className='sm:space-x-[14px] space-x-[5px] flex items-center'>
           <FirstButton onClick={FirstBtnClick}>{FirstBtnInfo}</FirstButton>
