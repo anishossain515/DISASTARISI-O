@@ -24,7 +24,7 @@ export const IncidentPage1 = () => {
 
           <img src="/setpper.png" alt="setpper" className='pt-[33px] mx-auto' />
 
-          <div className='pt-[33px] flex flex-wrap items-center justify-center gap-[55px]'>
+          <div className='pt-[33px] flex flex-row lg:flex-nowrap flex-wrap lg:justify-normal justify-center gap-[55px]'>
             {incidentsInfo.Incidents.map(({ image, type, details }, index) => (
               <IncidentsInfo image={image} type={type} details={details} key={index} />
             ))}
