@@ -7,6 +7,16 @@ import { useNavigate } from 'react-router-dom'
 
 export const IncidentPage2 = () => {
 
+    let Navigate = useNavigate()
+
+    const handelNavigateNext =()=>{
+        Navigate('/IncidentPage3')
+    }
+
+    const handelNavigateBack = ()=>{
+        Navigate("/IncidentPage1")
+    }
+
   return (
    <>
      <NavDetails
@@ -18,6 +28,8 @@ export const IncidentPage2 = () => {
         H='text-[26px]'
         Delete='/delete.png'
         Bar='/Bar.png'
+        SecondBtnClick={handelNavigateNext}
+        FirstBtnClick={handelNavigateBack}
       />
 
      <section className='mt-10'>
