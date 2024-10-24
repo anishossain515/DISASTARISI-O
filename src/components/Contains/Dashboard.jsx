@@ -44,7 +44,7 @@ export const Dashboard = () => {
           )}
         </Contains>
 
-        <div className="absolute right-0 bottom-0  pr-5 md:pr-[60px] pb-5 md:pb-[30px] lg:pr-[77px] lg:pb-[40px] cursor-pointer">
+        <div className="fixed bottom-8 right-2 sm:bottom-10 sm:right-10">
           <Cheat
             className={isCheatActive ? "bg-white" : "bg-Saffron"}
             onClick={toggleCheat}
@@ -56,7 +56,7 @@ export const Dashboard = () => {
         {isCheatActive && (
           <div
             className={cn(
-              "right-0 absolute bottom-0 sm:pr-[60px] pr-[2px] md:pr-[80px] lg:pr-[100px] pb-[65px] md:pb-[75px] lg:pb-[90px] cursor-pointer"
+              "fixed bottom-20 right-1 sm:bottom-24 sm:right-14"
             )}
           >
             <CheatBox />
