@@ -7,7 +7,8 @@ import { Location } from './components/Contains/Location/Location'
 import { IncidentPage1 } from './components/Contains/Incidents/IncidentPage1'
 import { IncidentPage2 } from './components/Contains/Incidents/IncidentPage2'
 import { IncidentPage3 } from './components/Contains/Incidents/IncidentPage3'
-import { IncidentPage4 } from './components/Contains/Incidents/Incidentpage4'
+import { IncidentPage4 } from './components/Contains/Incidents/IncidentPage4'
+
 
 function App() {
   return (
