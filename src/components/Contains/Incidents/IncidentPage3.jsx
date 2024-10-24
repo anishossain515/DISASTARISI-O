@@ -24,7 +24,7 @@ export const IncidentPage3 = () => {
             Describe what happened during the incident?
           </h2>
           <p className="text-sm text-Gray pt-3 pb-6">
-            Share some information about the incident. The when, where, how.{" "}
+            Share some information about the incident. The when, where, how.
           </p>
           <textarea
             className="w-full h-[127px] resize-none border border-Light-Gray rounded-[6px] px-[10px] py-5 text-Gray bg-[#f4f4f5] focus:outline-none focus:ring-gray-400"

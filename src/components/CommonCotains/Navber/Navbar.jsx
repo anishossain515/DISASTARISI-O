@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavItems from "../../Json Data/Data.json";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
-import { NavDetails } from "./NavDetails";
 import { Bar } from "../../lib/Icon";
 import { MobileMenu } from "./MobileMenu";
 
@@ -23,7 +22,7 @@ export const Navbar = () => {
     setIsMobileMenu(!IsMobileMenu);
   };
 
-  const activeInfo = NavItems.navItems[IsActive]?.navInfo;
+  // const activeInfo = NavItems.navItems[IsActive]?.navInfo;
 
   return (
     <section>
@@ -77,7 +76,6 @@ export const Navbar = () => {
         </div>
         <div className="mt-[15px] bg-Gray lg:hidden block"></div>
 
-        {activeInfo && <NavDetails activeInfo={activeInfo} />}
       </div>
 
       <Outlet />
