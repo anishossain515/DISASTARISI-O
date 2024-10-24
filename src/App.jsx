@@ -6,6 +6,7 @@ import { Incidents } from './components/Contains/Incidents/Incidents'
 import { Location } from './components/Contains/Location/Location'
 import { IncidentPage4 } from './components/Contains/Incidents/Incidentpage4'
 import { IncidentPage1 } from './components/Contains/Incidents/IncidentPage1'
+import { IncidentPage2 } from './components/Contains/Incidents/IncidentPage2'
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/incidents' element={<Incidents/>} />
           <Route path='/location' element={<Location/>}/>
           <Route path='/IncidentPage1' element={<IncidentPage1/>} />
+          <Route path='/IncidentPage2' element={<IncidentPage2/>} />
 
           </Route>
 

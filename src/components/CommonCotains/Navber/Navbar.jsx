@@ -26,7 +26,7 @@ export const Navbar = () => {
 
   return (
     <section>
-      <div className="bg-Light-Gray flex flex-col pt-2">
+      <div className="bg-Light-Gray  flex flex-col pt-2">
         <nav className="xl:px-[85px] px-[20px] lg:px-[40px] flex justify-between items-center">
           <img src="/logo.png" alt="logo" />
 
